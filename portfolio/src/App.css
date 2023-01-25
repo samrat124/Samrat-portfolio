@@ -1,0 +1,29 @@
+:root {
+  --primaryFont: "Poppins", sans-serif;
+  /* --primaryFont: 'Montserrat', sans-serif; */
+  /* --primaryFont: 'Raleway', sans-serif; */
+}
+.dark-github{
+  display: grid;
+  justify-content: center;
+  background-color: #15202b;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 90px;
+}
+.light-github{
+  display: grid;
+  justify-content: center;
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 90px;
+}
+.github--header {
+  /* font-size: 4rem; */
+  font-size: 1.2rem;
+  font-family: var(--primaryFont);
+  margin-bottom: 2rem;
+  color: rgb(29, 155, 240);
+  display: flex;
+  justify-content: center;
+}
